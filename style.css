@@ -1,0 +1,558 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: #233D8A;
+}
+
+.header-box{
+    text-align: center;
+    background-color: p;
+    background-color: #FED8C5;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-family: 'Sen', sans-serif ;
+    font-weight: 700;
+    padding: 8px 0;
+}
+
+@media only screen and (max-width:500px) {
+    .header-box {
+        font-size: 11px;
+        letter-spacing: 1px;
+        padding: 7px 0;
+    }
+}
+
+.header-box a:hover{
+    text-decoration: underline;
+}
+
+.header-box a{
+    text-decoration: none;
+    color: #233D8A;
+}
+
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    background: #fff9f6;
+    color: #233D8A;
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 10px 8px 12px 32px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #233D8A;
+    display: block;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #92a6e2;
+
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: white;
+    color: #233D8A;;
+    padding: 5px 15px;
+    border: none;
+    font-weight: 200;
+  }
+
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; 
+    padding: 5px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  button span{
+      letter-spacing: 20px;
+      margin-left: 10px;
+  }
+
+  .top-navbar{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+  }
+
+  .top-navbar input{
+      margin-left: 70px;
+      padding: 10px 20px;
+      border-radius: 40px;
+      width: 600px;
+      border: 1px solid #FED8C5;
+  }
+    
+  
+  .icons{
+    float: right;
+    margin-top: -60px;
+    margin-right: 80px;
+}
+
+@media (min-width:600px) and (max-width: 900px) {
+    .icons{
+        margin-top: -80px;
+    }
+
+    .top-navbar input{
+        width: 300px;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width:700px) {
+    .top-navbar input{
+        width: 300px;
+        margin-top: 0px;
+    }
+
+    .icons{
+        margin-top: -85px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1110px) {
+    .icons{
+        margin-top: -60px;
+    }
+    .top-navbar input{
+        width: 400px
+    }
+}
+
+
+  .cat-box{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+  }
+
+  .item-box{
+      margin: 0 35px;
+      font-size: 13px;
+  }
+
+  .item-box a{
+      text-decoration: none;
+      color: #233D8A;
+  }
+
+  .item-box p{
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 530;
+  }
+
+  .item-box img{
+    width: 40px;
+}
+
+.slides img{
+    width:100%;
+}
+
+.site-slider{
+    margin: -10px;
+    margin-top: 30px;
+}
+
+.features{
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.feat-head h2{
+    font-size: 36px;
+    font-family: sans-serif;
+}
+
+.btns{
+    margin: 10px 90px;
+}
+
+.btns button{
+    padding: 12px 40px;
+    margin: 10px;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn1{
+    border: 2px solid #233D8A;
+    color: #233D8A;
+    background-color: white;
+}
+
+.btn2{
+    color: white;
+    background-color: #233D8A;
+    border: none;
+    border: 2px solid #233D8A;
+}
+.checked{
+    color: #233D8A;
+}
+
+
+.slidepro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-item{
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.pro-item img{
+    width: 170px;
+}
+
+a{
+    text-decoration: none;
+}
+.pro-item a{
+    color: #233D8A;
+}
+
+.pro-item a h3{
+    font-size: 20px;
+    margin: 5px 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.pro-item a p{
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #ec6936;
+}
+
+.pro-item button{
+    padding: 8px 50px;
+    margin-top: 5px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.pink-box{
+    background-color: #FED8C5;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.video{
+    margin: 80px 0;
+}
+
+.foicon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pink-box h3{
+    font-size: 40px;
+    padding: 30px;
+    letter-spacing: 1.5;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.eachficon{
+    margin: 30px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.eachficon img{
+    width: 180px;
+}
+
+.eachficon p{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 2;
+    color: #093852;
+    max-width: 80%;
+    padding-left: 30px;
+}
+
+.categories{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer{
+    margin-top: 40px;
+    z-index: 1000;
+    font-family: sans-serif;
+    background: url(https://cdn.shopify.com/s/files/1/0082/7300/2573/files/arata-bg.svg?v=1610801692);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #FED8C5;
+}
+
+footer li{
+    list-style: none;
+}
+
+.containr{
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 120px;
+    margin-bottom: 30px;
+}
+
+footer p a{
+    text-decoration: underline;
+}
+
+footer .row p{
+    margin-bottom: 20px;
+}
+
+footer .row a{
+    font-weight: 300;
+}
+
+footer .row li{
+    margin: 10px;
+}
+
+footer .row ul{
+    margin-bottom: 30px;
+}
+
+.containr p a:hover{
+    color: #cca998;
+}
+
+footer p, a{
+    color: #FED8C5;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer a:hover{
+    color: #093852;
+}
+
+footer h2{
+    font-size: 40px;
+    line-height: 1.3;
+}
+
+.input{
+    background: none;
+    padding: 10px;
+    display: flex;
+}
+
+.input input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FED8C5;
+    width: 500px;
+    font-size: 20px;
+}
+
+.input button{
+    background: transparent;
+    border: none;
+    margin-left: 20px;
+}
+
+.row{
+    margin: 10px 10px;
+}
+
+.row img{
+    border-radius: 10px;
+    margin: 10px 0;
+    max-width: 100%;
+}
+ 
+  iframe {
+    box-sizing: border-box;
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    border: none;
+  }
+
+  .heading{
+      text-align: center;
+      margin-bottom: 25px;
+      color: #233D8A;
+  }
+
+  .heading h3{
+    font-family: 'Sen', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-bottom: 25px;
+  }
+
+  .items{
+      align-items: center;
+      justify-content: center;
+      
+  }
+
+  .eachitem{
+      text-align: center;
+      margin: 20px;
+      border: 3px solid #FED8C5;
+      font-weight: 500;
+      border-radius: 10px;
+      margin: 30px 10px;
+      padding: 20px;
+  }
+
+  .each-item{
+    margin: 20px;
+    margin: 30px 10px;
+    padding: 20px;
+}
+
+  .eachitem img{
+      width: 100%;
+      margin: auto;
+      padding-bottom: 30px;
+  }
+
+  .each-item img{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  .eachitem h3{
+      font-size: 18px;
+      line-height: 1.6;
+      color: #122239;
+  }
+
+  .follow{
+      margin-top: 30px;
+  }
+
+  .follow a{
+      color: #233D8A;
+      font-size: 32px;
+      
+  }
+
+  .eachitem p{
+      margin: 0 0 1rem 0;
+      color: #007bff;
+      font-size: 16px;
+  }
+
+  .eachitem a{
+      text-decoration: none;
+  }
+
+  .eachitem p:hover{
+      color: #093852;
+  }
+
+  .reviews{
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+  }
+
+
+@media (max-width:600px) {
+    .feat-head h2{ 
+        font-size: 24px;
+        margin: 5px;
+    }
+
+    .heading h3{
+        font-size: 24px;
+    }
+    .btns button{
+        font-size: 11px;
+        padding: 8px 20px;
+    }
+    .btns{
+        margin: 10px 10px;
+    }
+
+    .slidepro{
+        display: block;
+    }
+
+    .pink-box{
+        padding: 10px;
+    }
+
+}
+
+@media (max-width:990px) {
+    .tworow{
+        display: flex;
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+}
+
+
